@@ -3,8 +3,10 @@ function mergeSort(array){
   let subset1 = array.slice(0,array.length/2)
   let subset2 = array.slice(array.length/2)
   let sorted;
+  // if array is one element, it is already sorted
   if (array.length < 2){
     return array;
+  // otherwise recursively call mergeSort, and then merge the result
   } else {
     sorted = merge(mergeSort(subset1), mergeSort(subset2));
   }
