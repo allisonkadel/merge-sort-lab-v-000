@@ -5,8 +5,7 @@ function mergeSort(array){
   if (array.length < 2){
     return array;
   } else {
-    mergeSort(subset1);
-    mergeSort(subset2);
+    sorted = merge(mergeSort(subset1), mergeSort(subset2));
   }
 }
 
