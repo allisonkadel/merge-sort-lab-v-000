@@ -1,4 +1,4 @@
-function mergeSort(arrays){
+function mergeSort(array){
   
 }
 
