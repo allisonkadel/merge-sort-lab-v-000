@@ -8,6 +8,7 @@ function mergeSort(array){
   } else {
     sorted = merge(mergeSort(subset1), mergeSort(subset2));
   }
+  return sorted;
 }
 
 function findMinAndRemoveSorted(array){
