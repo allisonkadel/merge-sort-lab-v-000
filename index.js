@@ -4,6 +4,9 @@ function mergeSort(array){
   let subset2 = array.slice(array.length/2)
   if (array.length < 2){
     return array;
+  } else {
+    mergeSort(subset1);
+    mergeSort(subset2);
   }
 }
 
