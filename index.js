@@ -3,7 +3,7 @@ function mergeSort(array){
   let subset1 = array.slice(0,array.length/2)
   let subset2 = array.slice(array.length/2)
   if (array.length < 2){
-    
+    return array;
   }
 }
 
