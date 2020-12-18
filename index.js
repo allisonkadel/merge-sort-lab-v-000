@@ -1,5 +1,6 @@
 function mergeSort(array){
-  
+  // divide the array into half until only 1-element arrays are left
+  array.slice(array.length/2)
 }
 
 function findMinAndRemoveSorted(array){
