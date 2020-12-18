@@ -2,7 +2,9 @@ function mergeSort(array){
   // divide the array into half until only 1-element arrays are left
   let subset1 = array.slice(0,array.length/2)
   let subset2 = array.slice(array.length/2)
-  
+  if (array.length < 2){
+    
+  }
 }
 
 function findMinAndRemoveSorted(array){
